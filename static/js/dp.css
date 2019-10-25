@@ -1,0 +1,171 @@
+.bbit-dp {
+	BORDER-RIGHT: #718bb7 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #718bb7 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND: #fff; VISIBILITY: hidden; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #718bb7 1px solid; WIDTH: 175px; PADDING-TOP: 0px; BORDER-BOTTOM: #718bb7 1px solid; ZOOM: 1; FONT-FAMILY: tahoma,verdana,sans-serif; POSITION: absolute
+}
+.bbit-dp EM {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+.bbit-dp TABLE {
+	TABLE-LAYOUT: fixed; WIDTH: 100%; BORDER-COLLAPSE: separate
+}
+.bbit-dp TD TH {
+	MARGIN: 0px
+}
+.bbit-dp-top-center {
+	FONT: 11px tahoma,verdana,helvetica; CURSOR: pointer; COLOR: #fff; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+.bbit-dp-top-center BUTTON {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10px; BORDER-TOP: 0px; PADDING-LEFT: 3px; BACKGROUND: url(images/dp/btn-arrow-light.gif) no-repeat right top; MARGIN: 0px; FONT: 11px tahoma,verdana,helvetica; OVERFLOW: visible; BORDER-LEFT: 0px; WIDTH: auto; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: 0px; -moz-outline: 0 none; outline: 0 none
+}
+.ie .bbit-dp-top-center BUTTON {
+	
+}
+.bbit-dp-top-right {
+	HEIGHT: 21px
+}
+.bbit-dp .bbit-dp-top {
+	BACKGROUND: url(images/share/hd-sprite.gif) repeat-x 0px -83px
+}
+.bbit-dp-top-right {
+	WIDTH: 18px
+}
+.bbit-dp-top-left {
+	WIDTH: 18px
+}
+.bbit-dp-top-right {
+	TEXT-ALIGN: right
+}
+.bbit-dp-top-right A {
+	BACKGROUND-POSITION: center 50%; DISPLAY: block; FILTER: alpha(opacity=60); WIDTH: 16px; CURSOR: pointer; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; -moz-opacity: 0.6; opacity: 0.6
+}
+.bbit-dp-top-left A {
+	BACKGROUND-POSITION: center 50%; DISPLAY: block; FILTER: alpha(opacity=60); WIDTH: 16px; CURSOR: pointer; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; -moz-opacity: 0.6; opacity: 0.6
+}
+.bbit-dp-top-right A:hover {
+	FILTER: alpha(opacity=100); -moz-opacity: 1; opacity: 1
+}
+.bbit-dp-top-left A:hover {
+	FILTER: alpha(opacity=100); -moz-opacity: 1; opacity: 1
+}
+.bbit-dp-top-left A {
+	BACKGROUND: url(images/share/left-btn.gif); MARGIN-LEFT: 2px
+}
+.bbit-dp-top-right A {
+	BACKGROUND: url(images/share/right-btn.gif); MARGIN-LEFT: 2px
+}
+.bbit-dp-inner TH {
+	BORDER-COLLAPSE: separate
+}
+.bbit-dp-inner TD {
+	BORDER-COLLAPSE: separate
+}
+.bbit-dp-inner TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/share/glass-bg.gif) #dfecfb repeat-x left top; PADDING-BOTTOM: 0px; WIDTH: 25px; CURSOR: default; COLOR: #233d6d; PADDING-TOP: 0px; BORDER-BOTTOM: #a3bad9 1px solid; BORDER-COLLAPSE: separate; TEXT-ALIGN: right! important
+}
+.bbit-dp-inner TH SPAN {
+	PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 10px arial,helvetica,tahoma,sans-serif; PADDING-TOP: 2px
+}
+.bbit-dp-inner TD {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #fff 1px solid; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 1px solid; BORDER-COLLAPSE: separate; TEXT-ALIGN: right
+}
+.bbit-dp A {
+	COLOR: black; ZOOM: 1; TEXT-DECORATION: none
+}
+.bbit-dp-inner TD A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; FONT: 11px arial,helvetica,tahoma,sans-serif; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+.bbit-dp-inner .bbit-dp-active {
+	CURSOR: pointer; COLOR: black
+}
+.bbit-dp-inner .bbit-dp-selected A {
+	BORDER-RIGHT: #8db2e3 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #8db2e3 1px solid; PADDING-LEFT: 4px; BACKGROUND: url(../images/default/shared/glass-bg.gif) #dfecfb repeat-x left top; PADDING-BOTTOM: 1px; BORDER-LEFT: #8db2e3 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #8db2e3 1px solid
+}
+.bbit-dp-inner .bbit-dp-today A {
+	BORDER-RIGHT: darkred 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: darkred 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: darkred 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: darkred 1px solid
+}
+.bbit-dp-inner .bbit-dp-selected SPAN {
+	FONT-WEIGHT: bold
+}
+.bbit-dp-inner .bbit-dp-prevday A {
+	COLOR: #aaa; TEXT-DECORATION: none! important
+}
+.bbit-dp-inner .bbit-dp-nextday A {
+	COLOR: #aaa; TEXT-DECORATION: none! important
+}
+.bbit-dp-inner A:hover {
+	BACKGROUND: #ddecfe; COLOR: black; TEXT-DECORATION: none! important
+}
+.bbit-dp-inner bbit-dp-disabled A:hover {
+	BACKGROUND: #ddecfe; COLOR: black; TEXT-DECORATION: none! important
+}
+.bbit-dp-inner .bbit-dp-disabled A {
+	BACKGROUND: #eee; CURSOR: default; COLOR: #bbb
+}
+.bbit-dp-bottom {
+	PADDING-RIGHT: 2px; BORDER-TOP: #a3bad9 1px solid; PADDING-LEFT: 2px; BACKGROUND: url(images/share/glass-bg.gif) #dfecfb repeat-x left top; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.bbit-dp-mp {
+	DISPLAY: none; BACKGROUND: white; LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.bbit-dp-mp TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 11px arial,helvetica,tahoma,sans-serif; PADDING-TOP: 2px
+}
+TD.bbit-dp-mp-month {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; WIDTH: 25%; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+TD.bbit-dp-mp-year {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; WIDTH: 25%; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+TD.bbit-dp-mp-ybtn {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; WIDTH: 25%; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+.bbit-dp-mp-ok {
+	MARGIN-RIGHT: 3px
+}
+.bbit-dp-mp-btns BUTTON {
+	BORDER-RIGHT: #005 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #36c 1px solid; PADDING-LEFT: 3px; BACKGROUND: #083772; PADDING-BOTTOM: 1px; FONT: 11px arial,helvetica,tahoma,sans-serif; BORDER-LEFT: #36c 1px solid; CURSOR: pointer; COLOR: white; PADDING-TOP: 1px; BORDER-BOTTOM: #005 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none! important
+}
+.bbit-dp-mp-btns {
+	BACKGROUND: url(images/share/glass-bg.gif) #dfecfb repeat-x left top
+}
+.bbit-dp-mp-btns TD {
+	BORDER-TOP: #c5d2df 1px solid; TEXT-ALIGN: center
+}
+TD.bbit-dp-mp-month A {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; COLOR: #15428b; PADDING-TOP: 2px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+TD.bbit-dp-mp-year A {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; COLOR: #15428b; PADDING-TOP: 2px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+TD.bbit-dp-mp-month A:hover {
+	BACKGROUND: #ddecfe; CURSOR: pointer; COLOR: #15428b; TEXT-DECORATION: none
+}
+TD.bbit-dp-mp-year A:hover {
+	BACKGROUND: #ddecfe; CURSOR: pointer; COLOR: #15428b; TEXT-DECORATION: none
+}
+TD.bbit-dp-mp-sel A {
+	BORDER-RIGHT: #8db2e3 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #8db2e3 1px solid; PADDING-LEFT: 3px; BACKGROUND: url(images/share/glass-bg.gif) #dfecfb repeat-x left top; PADDING-BOTTOM: 1px; BORDER-LEFT: #8db2e3 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #8db2e3 1px solid
+}
+.bbit-dp-mp-ybtn A {
+	DISPLAY: block; BACKGROUND: url(images/share/tool-sprites.gif) no-repeat; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 15px; CURSOR: pointer; HEIGHT: 15px
+}
+.bbit-dp-mp-ybtn A.bbit-dp-mp-next {
+	BACKGROUND-POSITION: 0px -120px
+}
+.bbit-dp-mp-ybtn A.bbit-dp-mp-next:hover {
+	BACKGROUND-POSITION: -15px -120px
+}
+.bbit-dp-mp-ybtn A.bbit-dp-mp-prev {
+	BACKGROUND-POSITION: 0px -105px
+}
+.bbit-dp-mp-ybtn A.bbit-dp-mp-prev:hover {
+	BACKGROUND-POSITION: -15px -105px
+}
+.bbit-dp-mp-ybtn {
+	TEXT-ALIGN: center
+}
+TD.bbit-dp-mp-sep {
+	BORDER-RIGHT: #c5d2df 1px solid
+}
+.bbit-dp-input {
+	PADDING-LEFT: 4px; WIDTH: 100px; HEIGHT: 18px
+}

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.main_step { width:990px; margin:0 auto; height:30px; font-size:14px; color:#999; font-weight:bold; line-height:30px; background:#f7f8f9; border:1px solid #ccc; margin-bottom:10px; }
+.main_step .step01 { float:left; width:300px; text-align:center; color:#0d4053; background:#cae4ac; }
+.main_step .step02 { float:left; width:300px; text-align:center; }
+.main_step img { float:left; } 
+
+.site_add {height:auto; margin:0 40px 0 5px; border:1px solid #ccc; padding-bottom:20px; }
+.site_add table.reg { float:left; border-collapse:collapse; border-spacing:0; margin-top:10px; }
+.site_add table.reg td { padding:5px 0; line-height:30px; }
+.site_add table.reg td.top { vertical-align:top; }
+.site_add table.reg td.name { width:100px; text-align:right; }
+.site_add table.reg td input { float:left; width:380px; height:30px; line-height:30px; border:1px solid #ccc; }
+.site_add table.reg td textarea { float:left; width:380px; height:80px; line-height:30px; border:1px solid #ccc; }
+.site_add table.reg td input.short { float:left; width:100px; height:30px; line-height:30px; border:1px solid #ccc; }
+.site_add table.reg td input.error { float:left; width:380px; height:30px; line-height:30px; border:1px solid #ff0000; }
+.site_add table.reg td select { float:left; width:150px; height:20px; line-height:20px; margin-top:5px; margin-right:10px; border:1px solid #ccc; }
+.site_add table.reg td .suggestion  { float:left; width:360px; margin-left:10px; }
+.site_add table.reg td .suggestion_error { float:left; width:240px; margin-left:10px; color:#ff0000; }
+.site_add table.reg td .suggestion_error01 { float:left; width:750px; line-height:20px; margin:10px; color:#ff0000; }
+.site_add table.reg td .suggestion_error02 { float:left; width:110px; line-height:20px; margin-left:10px; color:#ff0000; }
+.site_add table.reg td .suggestion_error03 { float:left; line-height:20px; margin-left:10px; color:#ff0000; }
+
+.site_add .add_icon { float:left; margin:10px 0 20px 100px; width:155px; height:39px; background:url(../img/main/add_site_icon.gif) no-repeat; cursor:pointer; display:inline; }
+
+.bg-white { background-color:#fff;}
+.bg-grey { background-color:#f7f7f7;}
+.bg-blue { background-color:#eaf4f6;}
+.bg-white:hover td,.bg-grey:hover td,.bg-blue:hover td{ background-color:#f6fcef!important; }
+.cue_right .cont_txt .cont_button a.ok_icon {width:118px;height:30px;background: url("../img/icon/back_list_but.gif") no-repeat scroll 0 0 transparent;}

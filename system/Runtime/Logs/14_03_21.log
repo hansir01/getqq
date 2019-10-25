@@ -1,0 +1,905 @@
+[ 2014-03-21T18:47:23+08:00 ] 14.120.25.219 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002193s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2014-03-21T18:47:27+08:00 ] 14.120.25.219 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.002101s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-03-21T18:47:28+08:00 ] 14.120.25.219 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2014-03-21T18:47:31+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002053s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005639s ]
+
+[ 2014-03-21T18:47:43+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005151s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2014-03-21T18:47:44+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009517s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2014-03-21T18:47:47+08:00 ] 14.120.25.219 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001113s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001249s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-03-21T19:06:24+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001046s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004722s ]
+
+[ 2014-03-21T19:06:25+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046756s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004169s ]
+
+[ 2014-03-21T19:26:21+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003194s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031620s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000845s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001939s ]
+
+[ 2014-03-21T19:26:22+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042641s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000942s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2014-03-21T19:27:26+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008754s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009192s ]
+
+[ 2014-03-21T19:27:27+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007286s ]
+
+[ 2014-03-21T19:34:52+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006083s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041373s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015980s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003630s ]
+
+[ 2014-03-21T19:34:53+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000922s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007330s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2014-03-21T20:31:59+08:00 ] 14.120.25.219 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2014-03-21T20:32:01+08:00 ] 14.120.25.219 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.004207s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = '123456' ) AND ( `password` = '9a94c85a311de2a512c5c4f5e692c30c' ) LIMIT 1   [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024514s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005338s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005540s ]
+
+[ 2014-03-21T20:32:10+08:00 ] 14.120.25.219 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2014-03-21T20:32:11+08:00 ] 14.120.25.219 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005339s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001969s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2014-03-21T20:32:15+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000821s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006038s ]
+
+[ 2014-03-21T20:32:17+08:00 ] 14.120.25.219 /admin.php/Setup/editpass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\be26efd99bf21124a1e82c736115b6c2.php 第 39 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000850s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2014-03-21T20:32:39+08:00 ] 14.120.25.219 /admin.php/Setup/editpass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001464s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: UPDATE `tj_admin` SET `password`='e765fe19d2cbe4705bdd6a38016b1243' WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000794s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-03-21T20:32:40+08:00 ] 14.120.25.219 /admin.php/Setup/editpass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\be26efd99bf21124a1e82c736115b6c2.php 第 39 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001058s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2014-03-21T20:32:42+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003748s ]
+
+[ 2014-03-21T20:33:05+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2014-03-21T20:33:06+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039992s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003312s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004520s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004861s ]
+
+[ 2014-03-21T21:47:52+08:00 ] 14.120.25.219 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007149s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2014-03-21T21:47:58+08:00 ] 14.120.25.219 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.003208s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '9a94c85a311de2a512c5c4f5e692c30c' ) LIMIT 1   [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025885s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2014-03-21T21:48:07+08:00 ] 14.120.25.219 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001389s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002010s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2014-03-21T21:48:08+08:00 ] 14.120.25.219 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.303333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303497s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001196s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2014-03-21T21:48:12+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017283s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-03-21T21:48:33+08:00 ] 14.120.25.219 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001100s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2014-03-21T21:48:38+08:00 ] 14.120.25.219 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006759s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001868s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005769s ]
+
+[ 2014-03-21T22:00:03+08:00 ] 61.142.10.195 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2014-03-21T22:00:05+08:00 ] 61.142.10.195 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008502s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001545s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-03-21T22:00:06+08:00 ] 61.142.10.195 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047341s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2014-03-21T22:00:08+08:00 ] 61.142.10.195 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-03-21T22:16:47+08:00 ] 61.142.10.195 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009709s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2014-03-21T22:16:49+08:00 ] 61.142.10.195 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006110s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.003661s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001291s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2014-03-21T22:16:52+08:00 ] 61.142.10.195 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022803s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000491s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002076s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005554s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2014-03-21T22:16:54+08:00 ] 61.142.10.195 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000787s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000733s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003986s ]
+
+[ 2014-03-21T22:17:06+08:00 ] 61.142.10.195 /admin.php/Setup/dosave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [8] session_start() [<a href='function.session-start'>function.session-start</a>]: ps_files_cleanup_dir: opendir(C:\windows\temp) failed: No error (0) D:\wwwroot\haotongji\wwwroot\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040497s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001408s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001067s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006179s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2014-03-21T22:17:08+08:00 ] 61.142.10.195 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000591s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004610s ]
+

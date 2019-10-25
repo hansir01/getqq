@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="网站访客QQ号信息精准统计系统" />
+<meta name="description" content="{$cfg_title} - 访客信息统计系统" />
+<title>{$cfg_title}_{$cfg_seotitle}</title>
+<link rel="Shortcut Icon" href="/static/img/favicon.ico" />
+<link rel="Bookmark" href="/static/img/favicon.ico" />
+<link href="/static/css/siteList.all.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/report.all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://common.cnblogs.com/script/jquery.js"></script>
+<script>
+ function del(id){
+     if (confirm("确认要删除？")) {            
+         $.post('{:U('User/delmail')}', { id:id },function(status) {alert(status.info);}, "json");
+   }
+ }
+</script>
+</head>
+
+<body>
+<div class="userLoginHeader" id="userLoginHeader"  >
+<include file="./view/head.html"/>
+</div>
+<div class="section">
+<div id="leftAllNavRoot" class="left-nav">
+	<div id="left_common_nav_report" class="common-nav-open hide"></div>
+	<include file="./view/left.html"/>
+</div>
+	<div class="rightContainer" id="rightContainer"><div class="flow_detail">
+	<div id="rightTopTitle" class="right_top_title">
+	 	<span id="right_top_title">访客列表</span>	
+	<a class="help rightHeaderTip" title="提供访客的详细访问记录">&nbsp;</a>
+</div>
+
+	
+<div id="flow_detail_report" class="report_data">
+	<div class="report_title">
+		<form action="index.php" method="GET" id="form">
+		<input type="hidden" id="suid" name="suid" value=""/>
+		<input type="hidden" id="method" name="method" value="User"/>
+		<input type="hidden" id="do" name="do" value="index"/>
+		<ul id="flow_detail_report_title">
+			<li>
+			</li>
+			<li><a href="{:U("User/mailaddtpl")}" class="leftNav">添加内容模板</a></li>
+		</ul>
+		</form>
+	</div>
+
+	<table id="flow_detail_pv_table" class="report" style="display: table;">
+		<tbody><tr class="title reportTableTitle" style="width: 1031px; margin-top: 0px; position: static; top: 0px; border-bottom: medium none;">
+			<td class="time" style="width: 100px;">编号</td>
+			<td style="width: 160px;">标题</td>
+			<td style="width: 110px;">添加时间</td>
+			<td style="width: 110px;">操作</td>
+		</tr>
+		<volist name="list" id="vo">
+	<tr class="bg-white">
+		<td style="text-align: left;">
+                       <div style="width:100px; text-align:left; overflow: hidden;">
+					   {$vo.id}				</div>
+					</td>
+					<td style="text-align: left;">
+                       <div style="width:160px; text-align:left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; ">
+						{$vo.title}		</div>
+					</td>
+					<td style="text-align: left;">
+						<div style="width:110px;  text-align:left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; ">
+                            {$vo.time|date="Y-m-d H:i:s",###}
+						</div>
+					</td>
+					<td>
+						<div style="width:180px; text-align:left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                           <a href="{:U("User/mailaddtpl",array('id'=>$vo[id]))}">编辑</a>
+						    <a href="{:U("User/maildeltpl",array('id'=>$vo[id]))}">删除</a>
+						   </div>
+					</td> 
+				
+	</tr>
+	</volist>
+	</tbody></table>
+
+	<div class="page">
+		<div class="page-inner"> {$page}          </div>
+	</div>
+</div>
+	
+</div>
+
+</div>	
+</div>
+<div class="footer" id="footer">
+   <include file="./view/foot.html"/></div>
+</body>
+</html>

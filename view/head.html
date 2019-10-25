@@ -1,0 +1,73 @@
+﻿
+			<div class="headerTop">
+				<div style="margin:0 auto;max-width:1245px;">
+					<div class="headerTopContent">
+						<ul class="leftHeaderTop">
+								<li class="topLi"><span class="icon1"></span><a class="text" id="comeIntoOldCnzz">{$cfg_sitetitle}</a></li>
+								<li class="borderLi">|</li>
+								<li class="topLi">
+								<span style="float:left;">
+								欢迎您使用{$cfg_sitetitle}提供的访客统计系统&nbsp;&nbsp;					
+								</span>
+								</li>
+						</ul>
+						<ul class="rightHeaderTop">
+						    <eq name="Think.session.uid" value=""> 
+								<li class="linkLi"><a href="{:U("Index/login")}">[马上登录]</a></li><li class="borderLi">|</li><li class="linkLi"><a href="{:U("Index/reg")}">[注册帐号]</a></li>
+                             <else/>
+							 <li class="linkLi"><a href="{:U("User/index")}">[控制中心]</a></li><li class="borderLi">|</li><li class="linkLi"><a href="{:U("Public/loginout")}">[退出登录]</a></li>
+                            </eq>							 
+						</ul>
+					</div>
+				</div>
+			</div>
+	<div class="headerMiddle">
+		<div style="margin:0 auto;max-width:1245px;">
+			<div class="headerMiddleContent">		
+					<div class="headerMiddleLeft">				
+						<a href=""  target="_blank">
+							<img src="/static/img/main/logo.gif" border="0" />
+						</a>		
+					</div>
+					<div class="headerMiddleRight">
+							<ul class="navFeature">
+								<!-- <li class="navFLi" style="padding: 0 0;">
+									<a style="display:inline-block;width:50px;" class="link" href="/index.php?m=Index&a=help" target="_blank">
+										<ul style="width:26px;margin:0 12px;">
+											<li><div class="icon icon5"></div></li>
+											<li><div class="text">帮助</div></li>
+										</ul>
+									</a>
+								</li> -->				
+								<li class="navFLi">
+									<a class="link" href="{:U("User/index")}">
+										<ul>
+											<li><div class="icon icon2"></div></li>
+											<li><div class="text">帐户</div></li>
+										</ul>
+									</a>
+								</li>	
+								<li class="navFLi" style="_width:48px;">
+									<a class="link" href="{:U("Site/lists")}">
+										<ul>
+											<li><div class="icon icon1"></div></li>
+											<li><div class="text">站点列表</div></li>
+										</ul>
+									</a>
+								</li>
+							</ul>
+					</div><!--/headerMiddleRight-->
+			</div>
+		</div>
+	</div>
+		<div class="headerBottom">
+		<div style="margin:0 auto;max-width:1245px;">
+		<div class="headerBottomContent">
+			<ul class="headerNavContent">
+				<li info="report" class="navLi"><a title="返回{$cfg_sitetitle}首页" href="/" class="navLiA">首页</a></li>
+					<li class="borderLi"></li>
+			</ul>
+				<div class="siteSetNav"><span class="icon"></span><a href="{:U("User/pass")}" class="text">修改密码</a></div>		
+		  </div>
+		</div>
+	</div>

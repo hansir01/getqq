@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="网站访客QQ号信息精准统计系统" />
+<meta name="description" content="{$cfg_sitetitle} - 访客信息统计系统" />
+<title>获取统计代码_{$cfg_seotitle}</title>
+<link href="/static/css/siteList.all.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/site_setup_get_code.css" rel="stylesheet" type="text/css" />
+<script>
+function oCopy(obj){
+	obj.select();
+	js=obj.createTextRange();
+	js.execCommand("Copy")
+	}
+</script> 
+</head>
+<body>
+<div class="userLoginHeader" id="userLoginHeader"  >
+<include file="./view/head.html"/>
+</div>
+<div class="section">
+	<div class="siteSettitle">站点资料设置</div>
+	<div id="leftNavRootEl" class="left-nav">
+        <!-- 站长版本信息 -->
+        <div class="all-nav">
+				<div class="nav01"><a href="{:U("Site/lists")}">站点列表</a></div>
+								<div class="nav01ed">获取站点代码</div>
+						</div>
+                <a href="{:U("User/index")}" class="goto_button"></a>
+        		<input type="hidden" value="getcode" id="leftNavMethodName">
+</div>	
+	<div id="site_setup_get_code" class="site_setup_get_code">	
+		<div class="mainContent">
+			<div class="tabContent">
+				<ul class="tabTitle">
+					<li class="selected">统计代码</li>
+				</ul>
+				
+				<div class="pcTongji">					
+					<div class="inforTitle">
+						请任选一种形式的代码，将其粘贴到您网站所有页面的&lt;/body&gt;前，添加成功后立即开始统计。
+					</div>
+					
+					<div style="line-height:22px;color:#6A6A6A;padding-left: 15px;">
+						•&nbsp;加载统计代码不会影响您网页的正常显示和加载速度,请放心添加。<br>
+						•&nbsp;为了保证统计数据的准确性，请将我们的统计代码放置在其它统计代码的前面。<br>
+						•&nbsp;如果您的网站有动态内容，可以使用常用的包含功能或模板。
+					</div>
+
+						<!-- 站长获取代码 -->
+						<div style="height:236px;" class="code">
+							<div style="height:96px;float:left;">
+								<div class="middleCode">
+									<textarea id="textareaIdText42" rows="3" onclick="oCopy(this)" cols="50" name="textarea" readonly="true">{$js}</textarea>
+									<div class="clipboardTip">您的浏览器不支持此功能,请手工复制文本框中内容</div>
+								</div>
+							</div>
+						</div>
+						<p class="desc">为站点 <span class="getCodeSiteName">{$title}(http://{$domain})</span> 获取统计代码</p>
+					</div>
+			</div>
+		</div>
+</div>
+﻿<div class="footer" id="footer">
+    <include file="./view/foot.html"/>
+	</div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+margin:0px;
+padding:0px;
+}
+body {
+font-size:12px;
+color:#555555;
+font-family:"微软雅黑", "黑体";
+}
+.top {
+background:#1C91DB;
+height:43px;
+width:100%:
+}
+.left_bg {
+background:url(../images/left_bg.jpg);
+width:186px;
+}
+.top_content {
+width:1180px;
+margin:0px auto;
+line-height:43px;
+}
+
+.top_content a:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+.top_content a:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+.top_content a:hover {
+text-decoration:underline;
+color:#FFFFFF;
+}
+
+
+
+.main {
+width:1180px;
+height:100%;
+border:1px solid #e5e5e5;
+margin:0px auto;
+
+
+}
+.left {
+background:url(../images/left_bg.jpg);
+width:186px;
+position:relative;
+}
+
+.right {
+width:982px;
+margin-top:10px;
+margin-left:3px;
+
+
+}
+.left_name {
+height:48px;font-size:18px;color:#283651;line-height:48px;padding-left:22px;
+}
+
+.left a {
+display:block;
+height:48px;font-size:14px;color:#333333;line-height:48px;padding-left:64px;
+text-decoration:none;
+}
+.left a:hover {
+background:url(../images/ahover.jpg);
+}
+
+.right_top {
+background:#1C91DB;
+height:33px;
+border-left:1px solid #3b5997;
+}
+.so {
+border-top:1px solid #cacaca;
+border-left:1px solid #cacaca;
+border-right:1px solid #cacaca;
+background:#f2f2f2;
+width:100%;
+height:30px;
+line-height:30px;
+
+}
+.qq_title td {
+height:30px;
+background:#eceff6;
+color:#2a3855;
+padding-left:10px;
+padding-right:10px;
+}
+.qq_content td {
+height:30px;
+background:#FFFFFF;
+padding-right:10px;
+padding-left:10px;
+
+}
+.qq_content td a:link {
+color:#1C91DB;
+text-decoration:none;
+}
+.qq_content td a:visited {
+color:#1C91DB;
+text-decoration:none;
+}
+.qq_content td a:hover {
+text-decoration:none;
+color:#333333;
+}
+
+.page {
+margin-top:10px;
+margin-bottom:10px;
+}
+.page span {
+
+}
+.page a:link {
+color:#555555;
+text-decoration:none;
+}
+.page a:visited {
+color:#555555;
+text-decoration:none;
+}
+.page a:hover {
+text-decoration:none;
+color:#FF0000;
+}
+
+.site {
+width:80px;height:25px;margin-top:1px;background:#51A351;color:#FFFFFF;line-height:25px; text-align:center;margin-left:5px;border:1px solid #006600
+}
+
+.site a:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+.site a:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+.site a:hover {
+text-decoration:none;
+color:#FFFFFF;
+}

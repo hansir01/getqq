@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="网站访客QQ号信息精准统计系统" />
+<meta name="description" content="{$cfg_sitetitle} - 访客信息统计系统" />
+<title>邮箱导出_{$cfg_seotitle}</title><link rel="Shortcut Icon" href="/static/img/favicon.ico" />
+<link rel="Bookmark" href="/static/img/favicon.ico" />
+<link href="/static/css/siteList.all.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/site_add.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/static/js/showdate.js"></script>
+</head>
+<body>
+<div class="userLoginHeader" id="userLoginHeader"  >
+
+<include file="./view/head.html"/>
+
+</div>
+<div class="section">	
+	<div style="margin:0 40px 10px 5px;height:30px;">
+		<div style="line-height:30px;float:left;font-size: 14px;font-weight: bold;">
+		邮箱导出		</div>
+	</div>
+	
+	<div class="site_add clearfix">
+		<!-- 填写必填信息 -->
+		
+		<form action="{:U("User/expor")}" method="post" class="think-form cf" id="form">
+				
+		<table class="reg">
+		
+			<tr>
+				<td class="name">开始时间：</td>
+				<td><input type="text" id="st" name="st" onclick="return Calendar('st');" value="" class="text" style="border:1px solid #888; vertical-align:middle;width:85px;"/>
+                     <div class="suggestion_error" id="errormsg_sitename"></div>
+					 <div class="suggestion"></div>	
+				</td>
+			</tr>
+			<tr>
+				<td class="name">结束时间：</td>
+				<td><input type="text" id="et" onclick="return Calendar('et');" value="" name="et" class="text" style="border:1px solid #888; vertical-align:middle;width:85px;"/>
+                     <div class="suggestion_error" id="errormsg_sitename"></div>
+					 <div class="suggestion"></div>	
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="name top">导出站点：</td>
+				<td>
+					<select name="webid">			
+<option value="0">全部</option>					
+					  <volist name = "list" id = "id">
+					     <option value="{$id.id}">{$id.title}</option>
+					  </volist>
+					</select>&nbsp;&nbsp;<font color="red"><b></b></font>
+					<div class="suggestion_error01" id="errormsg_domainlist"></div>
+				</td>
+			</tr>
+			<!-- <tr>
+				<td class="name top">邮件模板：</td>
+				<td>
+				<select name="tplid">					 
+					  <volist name = "tpllist" id = "id">
+					     <option value="{$id.id}">{$id.title}({$id.id})</option>
+					  </volist>
+					</select>
+                 <div class="suggestion_error03" id="errormsg_siteinfo"></div>
+                  </td>
+			</tr> -->
+					</table>
+		
+                
+				 <input type="submit" onclick="return selectDate()" value="确认导出" /></div>
+                <div class="loading35 hide statusLoading"></div>
+		</form>
+	</div>
+	
+</div>
+﻿<div class="footer" id="footer">
+    <include file="./view/foot.html"/>
+	</div>
+</body>
+</html>
+<SCRIPT language=javascript>
+
+
+function selectDate(){
+		var st=document.getElementById('st').value;
+		var et=document.getElementById('et').value;
+		if(st == ""){
+		    alert("请选择开始时间");
+		    return false;
+		}
+		if(et == ""){
+		    alert("请选择结束时间");
+		    return false;
+		}
+		
+		return duibi(st,et);
+}
+
+function duibi(a, b) {
+    var arr = a.split("-");
+    var starttime = new Date(arr[0], arr[1], arr[2]);
+    var starttimes = starttime.getTime();
+
+    var arrs = b.split("-");
+    var lktime = new Date(arrs[0], arrs[1], arrs[2]);
+    var lktimes = lktime.getTime();
+
+    if (starttimes > lktimes) {
+
+        alert('开始时间大于结束时间，请检查');
+        return false;
+    }
+    else
+        return true;
+
+}
+</SCRIPT>

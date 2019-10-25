@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="网站访客QQ号信息精准统计系统" />
+<meta name="description" content="{$cfg_sitetitle} - 访客信息统计系统" />
+<title>添加站点_{$cfg_seotitle}</title><link rel="Shortcut Icon" href="/static/img/favicon.ico" />
+<link rel="Bookmark" href="/static/img/favicon.ico" />
+<link href="/static/css/siteList.all.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/site_add.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="userLoginHeader" id="userLoginHeader"  >
+
+<include file="./view/head.html"/>
+
+</div>
+<div class="section">	
+	<div style="margin:0 40px 10px 5px;height:30px;">
+		<div style="line-height:30px;float:left;font-size: 14px;font-weight: bold;">
+		添加站点		</div>
+	</div>
+	
+	<div class="site_add clearfix">
+		<!-- 填写必填信息 -->
+		<eq name="id" value="">
+		<form action="{:U("Site/doadd")}" method="post" class="think-form cf" id="form">
+		<else/>
+		<form action="{:U("Site/dosave")}" method="post" class="think-form cf" id="form">
+		<input type="hidden" name="sid" value="{$id}"/>
+		</eq>
+		<table class="reg">
+			<tr>
+				<td class="name">网站名称：</td>
+				<td><input type="text" name="sitename" value="{$title}" id="sitename"/>&nbsp;&nbsp;可随便填写,如“我的网站”
+                     <div class="suggestion_error" id="errormsg_sitename"></div>
+					 <div class="suggestion"></div>	
+				</td>
+			</tr>
+			<tr>
+				<td class="name top">网站域名：</td>
+				<td>
+					<input type="text" name="sitedomain" id="sitedomain" value="{$domain}"/>&nbsp;&nbsp;<font color="red"><b>如www.baidu.com，只需要输入baidu.com即可</b></font>
+					<div class="suggestion_error01" id="errormsg_domainlist">统计代码是绑定域名的，只可以在该域名下使用</div>
+				</td>
+			</tr>
+			<eq name="id" value="">
+			<tr>
+				<td class="name">网站类型：</td>
+				<td>
+						<select name="type" id="type" onchange="selectedCate();">			
+						</select>
+						<select name="subtype" id="subtype">	
+						</select>
+                    <div class="suggestion_error" id="errormsg_type"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="name">网站地区：</td>
+				<td>
+					<select name="provinces" id="provinces" onchange="selectedCity();">
+					</select>
+					<select name="cities" id="cities">
+					</select>
+                    <div class="suggestion_error02" id="errormsg_provinces"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="name top">网站简介：</td>
+				<td>
+				<textarea name="siteinfo" id="siteinfo" cols="50" rows="5"></textarea>
+                 <div class="suggestion_error03" id="errormsg_siteinfo"></div>
+                  </td>
+			</tr>
+    <script type="text/javascript" src="/static/js/site_cake_area.js"></script>
+                <script type="text/javascript">
+					init();
+                </script>			
+			</eq>
+			
+			<tr>
+				<td class="name">自动发送邮件：</td>
+				<td>
+					<select name="aotumail" id="aotumail">
+					   <option value="1" <eq name="aotumail" value='1'> selected</eq>>开启</option>
+					   <option value="0" <eq name="aotumail" value='0'> selected</eq>>关闭</option>
+					</select>					
+					<div class="suggestion_error01" id="errormsg_domainlist">此功能只有高级用户才能使用,普通用户无法开启此功能</div>
+				</td>
+			</tr>
+			</table>
+		
+                
+				<input class="add_icon" name="addsubmit" value=""  type="image" id="addsubmit"></div>
+                <div class="loading35 hide statusLoading"></div>
+		</form>
+	</div>
+	
+</div>
+﻿<div class="footer" id="footer">
+    <include file="./view/foot.html"/>
+	</div>
+</body>
+</html>

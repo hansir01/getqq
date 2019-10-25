@@ -1,0 +1,1783 @@
+[ 2015-12-01T17:12:40+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `vipstartime`,`vipendtime` FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:12:45+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `username` = 'langbin' ) AND ( `password` = '453ed3fec4950fcf110a7d6f6f99fdb8' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:12:49+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:13:28+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\0f1b6e4c5ba03bcdbb1cce84480281ce.php 第 79 行.
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\0f1b6e4c5ba03bcdbb1cce84480281ce.php 第 164 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:13:32+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tj_members` SET `loginip`='127.0.0.1',`logintime`=1448961212,`logincount`=logincount+1 WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:13:33+08:00 ] 127.0.0.1 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: st G:\server\upupw\vhosts\qqtongji.com\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: domain G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: sid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: domain G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.015600s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:13:35+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:13:36+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:13:37+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:14:08+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015601s ]
+
+[ 2015-12-01T17:14:29+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:14:53+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+
+[ 2015-12-01T17:16:01+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:16:35+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:16:36+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:16:49+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:16:51+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:17:10+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:18:32+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:19:07+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:52:04+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.374400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.374400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:53:55+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:53:59+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\35f25a83367e87f77daf537952997a58.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.514801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.514801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:54:03+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:54:13+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:54:19+08:00 ] 127.0.0.1 /index.php/Site/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:54:23+08:00 ] 127.0.0.1 /index.php/Index/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\35f25a83367e87f77daf537952997a58.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:54:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\0f1b6e4c5ba03bcdbb1cce84480281ce.php 第 79 行.
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.031200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.109201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\0f1b6e4c5ba03bcdbb1cce84480281ce.php 第 164 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.655202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.655202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:54:27+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:14+08:00 ] 127.0.0.1 /index.php/Public/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tj_members` SET `loginip`='127.0.0.1',`logintime`=1448963714,`logincount`=logincount+1 WHERE ( `username` = 'langbin' ) AND ( `password` = '7de77cdad36b9e73cf82817cd9935f3d' ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:15+08:00 ] 127.0.0.1 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: st G:\server\upupw\vhosts\qqtongji.com\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: domain G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: sid G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Undefined index: domain G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 184 行.
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant webid - assumed 'webid' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\e4ca7b88255e790a4d465bf4fc5671ae.php 第 204 行.
+SQL: SELECT `domain` FROM `tj_sites` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:19+08:00 ] 127.0.0.1 /index.php/User/pass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:21+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:22+08:00 ] 127.0.0.1 /index.php/Site/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 181 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 181 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:24+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T17:55:25+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T17:55:26+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T18:01:34+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T18:07:11+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-12-01T18:07:23+08:00 ] 127.0.0.1 /index.php/User/domailtplSave.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: UPDATE `tj_mail_tpl` SET `title`='12313212',`body`='&lt;p&gt;21&lt;span style=\\&quot;color: rgb(255, 0, 0);\\&quot;&gt;3&lt;span style=\\&quot;color: rgb(255, 0, 0); font-size: 36px;\\&quot;&gt;&lt;strong&gt;321&lt;/strong&gt;&lt;/span&gt;321&lt;/span&gt;&lt;/p&gt;' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T18:07:24+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-12-01T18:07:26+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.015601s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-01T18:08:29+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:09:16+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:10:07+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2015-12-01T18:10:42+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:11:10+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:11:11+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:11:37+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:12:16+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:12:22+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:12:24+08:00 ] 127.0.0.1 /index.php/Site/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 181 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\931e260c4985c1be3f047e011210c37d.php 第 181 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-12-01T18:12:25+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:12:27+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:12:28+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:12:30+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:12:33+08:00 ] 127.0.0.1 /index.php/User/delmail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: DELETE FROM `tj_maildata` WHERE ( `id` = 7 ) AND ( `uid` = 3 ) [ RunTime:0.000000s ]
+
+[ 2015-12-01T18:12:35+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:12:36+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:13:14+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007501s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:13:15+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 192 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:30+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:18:32+08:00 ] 127.0.0.1 /index.php/User/maildeltpl/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 1 ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `tj_mail_tpl` WHERE ( `id` = 1 ) AND ( `uid` = 3 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:33+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:33+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:35+08:00 ] 127.0.0.1 /index.php/User/maildeltpl/id/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 3 ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: DELETE FROM `tj_mail_tpl` WHERE ( `id` = 3 ) AND ( `uid` = 3 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:37+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 184 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 185 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:40+08:00 ] 127.0.0.1 /index.php/User/mailaddtpl/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:45+08:00 ] 127.0.0.1 /index.php/User/maildeltpl/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `id` = 2 ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `tj_mail_tpl` WHERE ( `id` = 2 ) AND ( `uid` = 3 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:18:46+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:48+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:50+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:18:50+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-01T18:18:51+08:00 ] 127.0.0.1 /index.php/User/mailtpl.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_mail_tpl` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `tj_mail_tpl` WHERE ( `uid` = 3 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 6 行.
+NOTIC: [8] Undefined variable: cfg_title G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 7 行.
+NOTIC: [8] Undefined variable: page G:\server\upupw\vhosts\qqtongji.com\core\Runtime\Cache\3ea6d7876161ea3ef925f7ea6ce6349e.php 第 193 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-12-01T18:18:52+08:00 ] 127.0.0.1 /index.php/User/mail.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tj_maildata` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+

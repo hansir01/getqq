@@ -1,0 +1,100 @@
+[ 2016-07-11T16:41:20+08:00 ] 128.1.1.83 /index.php/Tj/index?jsuid=134
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.003808s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000361s ]
+
+[ 2016-07-11T16:41:22+08:00 ] 128.1.1.83 /index.php/Tj/index?jsuid=134
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.003159s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000256s ]
+
+[ 2016-07-11T17:11:22+08:00 ] 128.1.1.83 /index.php/Tj/index?jsuid=134
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.026145s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000235s ]
+
+[ 2016-07-11T17:11:24+08:00 ] 128.1.1.83 /index.php/Do/save/?action=saveQQ&uid=134&meishi=100030534,100093927&uincookie=code146822828404149634&referrer=&url=http%3A%2F%2Fwww.sjzxhdn.org%2Findex.html&title=Index&r=1468228284042
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.003123s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT `id`,`uid`,`aotumail` FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\getqq\core\action\Action\DoAction.class.php 第 39 行.
+NOTIC: [8] Undefined variable: s_s_keyword D:\wamp\www\getqq\core\Common\common.php 第 306 行.
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.003326s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT `id` FROM `tj_qqdata` WHERE ( webid="134" and ip = "128.1.1.83" and time < 1468252799 and time > 1468166400 ) LIMIT 1   [ RunTime:0.000644s ]
+SQL: INSERT INTO `tj_qqdata` (`cookiesid`,`qq`,`uid`,`webid`,`qqnick`,`sex`,`title`,`keyword`,`ip`,`ipcity`,`url`,`referer`,`time`) VALUES ('code146822828404149634','838221395',14056,134,'LUCK','1','Index',null,'128.1.1.83','','http://www.sjzxhdn.org/index.html','',1468228284) [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.005691s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT `vipstartime`,`vipendtime` FROM `tj_members` WHERE ( `id` = 14056 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `tj_qq_visit` [ RunTime:0.006015s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_qq_visit` WHERE ( urlkey = "da47cf3a624ff9c681654f094d6364be" and time < 1468252799 and time > 1468166400 ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: INSERT INTO `tj_qq_visit` (`urlkey`,`cookies`,`url`,`time`,`uid`,`webid`) VALUES ('da47cf3a624ff9c681654f094d6364be','code146822828404149634','http://www.sjzxhdn.org/index.html',1468228284,14056,134) [ RunTime:0.000563s ]
+
+[ 2016-07-11T17:11:39+08:00 ] 128.1.1.83 /index.php/Tj/index?jsuid=134
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.002505s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000265s ]
+
+[ 2016-07-11T17:11:39+08:00 ] 128.1.1.83 /index.php/Do/save/?action=saveQQ&uid=134&meishi=100019888,100019166&uincookie=code146822828404149634&referrer=&url=http%3A%2F%2Fwww.sjzxhdn.org%2Findex.html&title=Index&r=1468228299424
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.003309s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT `id`,`uid`,`aotumail` FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000222s ]
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\getqq\core\action\Action\DoAction.class.php 第 39 行.
+NOTIC: [8] Undefined variable: s_s_keyword D:\wamp\www\getqq\core\Common\common.php 第 306 行.
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.004633s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT `id` FROM `tj_qqdata` WHERE ( webid="134" and ip = "128.1.1.83" and time < 1468252799 and time > 1468166400 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `tj_qq_visit` [ RunTime:0.003576s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_qq_visit` WHERE ( urlkey = "e177a340062eb7f7879b781b96cca482" and time < 1468252799 and time > 1468166400 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: INSERT INTO `tj_qq_visit` (`urlkey`,`cookies`,`url`,`time`,`uid`,`webid`) VALUES ('e177a340062eb7f7879b781b96cca482','code146822828404149634','http://www.sjzxhdn.org/index.html',1468228299,14056,134) [ RunTime:0.000286s ]
+

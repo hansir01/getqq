@@ -1,0 +1,395 @@
+[ 2014-06-25T01:44:06+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061483s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002173s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2014-06-25T01:44:38+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002621s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000137s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002687s ]
+
+[ 2014-06-25T01:45:52+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000154s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002491s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2014-06-25T01:46:20+08:00 ] 125.105.103.55 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002597s ]
+NOTIC: [8] Undefined index:  st E:\wwwroot\test\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001290s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2014-06-25T01:46:24+08:00 ] 125.105.103.55 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+NOTIC: [8] Undefined index:  st E:\wwwroot\test\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001312s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002300s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002171s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2014-06-25T01:46:27+08:00 ] 125.105.103.55 /index.php/Site/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002969s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT * FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002283s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002287s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2014-06-25T01:46:28+08:00 ] 125.105.103.55 /index.php/Site/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 98 行.
+NOTIC: [8] Undefined variable: title E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 105 行.
+NOTIC: [8] Undefined variable: domain E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 113 行.
+NOTIC: [8] Undefined variable: id E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 117 行.
+NOTIC: [8] Undefined variable: aotumail E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 153 行.
+NOTIC: [8] Undefined variable: aotumail E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 154 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002292s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002687s ]
+
+[ 2014-06-25T01:47:40+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000136s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009459s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2014-06-25T01:49:40+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000154s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053548s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2014-06-25T01:49:48+08:00 ] 125.105.103.55 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000152s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002289s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002171s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002672s ]
+
+[ 2014-06-25T01:51:07+08:00 ] 125.105.103.55 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+NOTIC: [8] Undefined index:  st E:\wwwroot\test\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001426s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001293s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002304s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002288s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2014-06-25T01:51:08+08:00 ] 125.105.103.55 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+NOTIC: [8] Undefined index:  st E:\wwwroot\test\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001331s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002304s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002292s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2014-06-25T01:51:09+08:00 ] 125.105.103.55 /index.php/Site/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT * FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002158s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2014-06-25T01:51:10+08:00 ] 125.105.103.55 /index.php/Site/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 98 行.
+NOTIC: [8] Undefined variable: title E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 105 行.
+NOTIC: [8] Undefined variable: domain E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 113 行.
+NOTIC: [8] Undefined variable: id E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 117 行.
+NOTIC: [8] Undefined variable: aotumail E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 153 行.
+NOTIC: [8] Undefined variable: aotumail E:\wwwroot\test\core\Runtime\Cache\5b860a0e183bb26b3e32b4e5d7658f39.php 第 154 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002273s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002281s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009335s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2014-06-25T01:51:16+08:00 ] 125.105.103.55 /index.php/User/expor.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001352s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tpllist E:\wwwroot\test\core\Runtime\Cache\7499301d015bc95b31bfd466f162ffca.php 第 133 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028211s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009339s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2014-06-25T01:51:20+08:00 ] 125.105.103.55 /index.php/User/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+NOTIC: [8] Undefined index:  st E:\wwwroot\test\core\action\Action\UserAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.001351s ]
+SQL: SELECT `id`,`title` FROM `tj_sites` WHERE ( `uid` = 3 ) ORDER BY id desc  [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( uid = 3 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( uid = 3 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002287s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002157s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002648s ]
+

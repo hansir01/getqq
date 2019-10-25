@@ -1,0 +1,1022 @@
+[ 2014-03-23T11:38:53+08:00 ] 61.142.10.159 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015379s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001704s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2014-03-23T11:38:55+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001078s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014211s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005366s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-03-23T11:38:56+08:00 ] 61.142.10.159 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-03-23T11:39:01+08:00 ] 61.142.10.159 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001031s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-03-23T11:39:07+08:00 ] 61.142.10.159 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004930s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.000915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2014-03-23T11:39:11+08:00 ] 61.142.10.159 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.007603s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027669s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2014-03-23T11:39:12+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001055s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.003767s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-03-23T11:39:15+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001117s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2014-03-23T11:39:18+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14064.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006002s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001122s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14064 ) LIMIT 1   [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-03-23T11:39:26+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14058.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001371s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14058 ) LIMIT 1   [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021230s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-03-23T11:39:52+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14057.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001040s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14057 ) LIMIT 1   [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2014-03-23T11:40:24+08:00 ] 61.142.10.159 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000264s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004244s ]
+
+[ 2014-03-23T11:40:41+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.000850s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'a4b01775f8c739b2205668c0ef9292ed' ) LIMIT 1   [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-03-23T11:40:44+08:00 ] 61.142.10.159 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-03-23T11:41:01+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001318s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '9a94c85a311de2a512c5c4f5e692c30c' ) LIMIT 1   [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2014-03-23T11:41:12+08:00 ] 61.142.10.159 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000371s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2014-03-23T11:41:24+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001088s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'a4b01775f8c739b2205668c0ef9292ed' ) LIMIT 1   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002656s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2014-03-23T11:41:32+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.001333s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018761s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2014-03-23T11:41:34+08:00 ] 61.142.10.159 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003546s ]
+
+[ 2014-03-23T11:41:40+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009838s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000266s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-03-23T11:41:43+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14057.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000858s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14057 ) LIMIT 1   [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000367s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000295s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-03-23T11:41:56+08:00 ] 61.142.10.159 /admin.php/User/doedit.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001517s ]
+SQL: UPDATE `tj_members` SET `email`='liuliuyong8888@vip.qq.com',`vipendtime`=1395590400,`isvip`=1 WHERE ( `id` = 14057 ) [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000455s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000794s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002568s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005212s ]
+
+[ 2014-03-23T11:41:57+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-03-23T11:42:00+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14057.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000895s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14057 ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016043s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000350s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-03-23T11:42:04+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14058.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14058 ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004566s ]
+
+[ 2014-03-23T11:42:11+08:00 ] 61.142.10.159 /admin.php/User/doedit.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001186s ]
+SQL: UPDATE `tj_members` SET `email`='fangketongji0@126.com',`vipendtime`=1395590400,`isvip`=1 WHERE ( `id` = 14058 ) [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008074s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2014-03-23T11:42:12+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.002279s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000289s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-03-23T11:42:16+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14059.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001099s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14059 ) LIMIT 1   [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000811s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000802s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-03-23T11:42:24+08:00 ] 61.142.10.159 /admin.php/User/doedit.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001151s ]
+SQL: UPDATE `tj_members` SET `email`='leihuihappy@qq.com',`vipendtime`=1395590400,`isvip`=1 WHERE ( `id` = 14059 ) [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000802s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002221s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2014-03-23T11:42:25+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.000981s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2014-03-23T11:42:27+08:00 ] 61.142.10.159 /admin.php/User/edit/id/14060.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001552s ]
+SQL: SELECT * FROM `tj_members` WHERE ( `id` = 14060 ) LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021526s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2014-03-23T11:42:30+08:00 ] 61.142.10.159 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.001999s ]
+NOTIC: [8] Undefined index:  username D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\0551a8a98a058b075ff65a240320959b.php 第 60 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2014-03-23T11:42:35+08:00 ] 61.142.10.159 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index:  uid D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.000924s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.003711s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\5a1c710defdb6a234a616c756a5f333e.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000265s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2014-03-23T11:42:43+08:00 ] 61.142.10.159 /admin.php/Visit/index/sid/138.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.002315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` WHERE ( `webid` = 138 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT * FROM `tj_qqdata` WHERE ( `webid` = 138 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000215s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2014-03-23T12:10:24+08:00 ] 180.153.201.66 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-03-23T13:26:20+08:00 ] 61.142.10.159 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-03-23T13:26:26+08:00 ] 61.142.10.159 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.007700s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e765fe19d2cbe4705bdd6a38016b1243' ) LIMIT 1   [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwroot\haotongji\wwwroot\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000274s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000211s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2014-03-23T13:26:27+08:00 ] 61.142.10.159 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008033s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2014-03-23T13:26:29+08:00 ] 61.142.10.159 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.001232s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: map D:\wwwroot\haotongji\wwwroot\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018079s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+

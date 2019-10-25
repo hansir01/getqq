@@ -1,0 +1,13 @@
+[ 2016-07-19T17:50:57+08:00 ] 128.1.1.83 /index.php/Tj/index?jsuid=134
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.030818s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014750s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\getqq\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.172746s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\wamp\www\getqq\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `tj_sites` WHERE ( `id` = 134 ) LIMIT 1   [ RunTime:0.000649s ]
+

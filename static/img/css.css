@@ -1,0 +1,31 @@
+.clearfix:after{content:"";height:0;display:block;clear:both;visibility:hidden;;}
+* html .clearfix{height:1%;}
+* +html .clearfix{display:inline-block;}
+.recharge{color:#000;font:12px/1.5 "ËÎÌו",Arial, Helvetica, sans-serif;}
+.recharge ul,.recharge li,.recharge form,.recharge p,.recharge dl,.recharge dt,.recharge dd{margin:0;padding:0;}
+.recharge li{list-style:none;}
+.recharge img{border:none;}
+.recharge i{font-style:normal;}
+.recharge a{color:#0072c1;text-decoration:none;}
+.recharge{width:580px;background:#faf0c9;margin:100px auto 0;border-radius:3px;}
+.recharge-inner{border:1px solid #fc9;background:#fef8e0;position:relative;left:-4px;top:-4px;border-radius:3px;}
+.recharge-con{padding:30px 0;}
+.recharge-form{width:350px;float:left;padding:15px 0 20px;border-right:1px solid #ddd;margin-right:-1px;}
+.recharge-form li{width:230px;position:relative;padding-bottom:22px;line-height:24px;padding-left:105px;font-size:14px;}
+.recharge-form li .label-left{position:absolute;left:30px;top:0;white-space:pre;}
+.ipt-name,.ipt-value{width:186px;height:22px;line-height:22px;border:1px solid #ccc;background:#fff;padding:0 5px;color:#999;border-radius:2px;}
+.amount-value,.amount-value-ipt{display:inline;width:70px;height:24px;float:left;padding-bottom:4px;font-family:Tahoma;}
+.amount-value input,.amount-value-ipt input{margin:0 5px 0 0;}
+.amount-value-ipt{width:155px;}
+* html .amount-value-ipt i{position:relative;top:-4px;}
+* +html .amount-value-ipt i{position:relative;top:-4px;}
+.ipt-value{width:60px;}
+.txt-price{color:#f60;font-weight:bold;font-family:arial;font-size:16px;}
+.recharge-btn{display:block;width:113px;height:28px;line-height:28px;border:none;cursor:pointer;padding:0;background:url(btn.png) 0 0 no-repeat;color:#fff;font-size:14px;font-weight:bold;}
+.recharge-btn-2{display:block;width:150px;height:28px;line-height:28px;border:none;cursor:pointer;padding:0;background:url(btn_2.png) 0 0 no-repeat;color:#fff;font-size:14px;font-weight:bold;}
+.right-tips{width:180px;padding:10px 0 0 18px;float:left;border-left:1px solid #ddd;line-height:20px;color:#666;}
+.recharge-bottom{line-height:22px;border-top:1px solid #f5e2b6;padding:5px 15px;}
+.recharge-bottom li{float:left;padding-right:12px;}
+.recharge-bottom li a:hover{text-decoration:underline;}
+.xiangdao{color:#000;font:12px/1.5 "ËÎÌו",Arial, Helvetica, sans-serif;}
+.xiangdao h1{margin:0px;text-align:center;color:#f60;}

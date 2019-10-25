@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="网站访客QQ号信息精准统计系统" />
+<meta name="description" content="{$cfg_sitetitle} - 访客信息统计系统" />
+<title>统计</title><link rel="Shortcut Icon" href="/static/img/favicon.ico" />
+<link rel="Bookmark" href="/static/img/favicon.ico" />
+<link href="/static/css/siteList.all.css" rel="stylesheet" type="text/css" />
+<link href="/static/css/site_add.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="userLoginHeader" id="userLoginHeader"  >
+
+<include file="./view/head.html"/>
+
+</div>
+<div class="section">	
+	<div style="margin:0 40px 10px 5px;height:30px;">
+		<div style="line-height:30px;float:left;font-size: 14px;font-weight: bold;">
+		添加邮件发送帐号		</div>
+	</div>
+	
+	<div class="site_add clearfix">
+		<!-- 填写必填信息 -->
+		
+		<form action="{:U("User/doMainSave")}" method="post" class="think-form cf" id="form">
+		<input type="hidden" name="sid" value="{$id}"/>
+		
+		<table class="reg">						
+			<tr>
+				<td class="name top">自动发送邮件：</td>
+				<td>
+					<select name="webid">
+					  <option value="0">随机发送</option>
+					     <option value="1">开启</option>
+						 <option value="1">否</option>
+					</select>&nbsp;&nbsp;<font color="red"><b>请选择默认发送的范围</b></font>
+					<div class="suggestion_error01" id="errormsg_domainlist"></div>
+				</td>
+			</tr>
+			
+					</table>
+		
+                
+				<input class="add_icon" name="addsubmit" value=""  type="image" id="addsubmit"></div>
+                <div class="loading35 hide statusLoading"></div>
+		</form>
+	</div>
+	
+</div>
+﻿<div class="footer" id="footer">
+    <include file="./view/foot.html"/>
+	</div>
+</body>
+</html>
